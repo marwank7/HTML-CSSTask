@@ -15,19 +15,27 @@
 
 ul{
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+    /* overflow: hidden; */
     
 }
   
-li{
+.header-info{
+    margin-top: 50px;
+    margin-right: 400px;
     float: right;
-   
+    display: flex;
+    /* flex-flow: row; */
+    width: 306px;
+    height: 19px;
+    flex-flow: row;
+    font: normal normal normal 14px/19px Open Sans;
+    letter-spacing: 5.6px;
+    color: #212121;
+    justify-content: space-between;
 }
 
 
-.features{
+/* .features{
     top: 68px;
     left: 1214px;
     width: 96px;
@@ -38,168 +46,118 @@ li{
     color: #212121;
     opacity: 1;
     position: absolute;
-}
-
-.contacts{
-    top: 68px;
-    left: 1358px;
-    width: 96px;
-    height: 19px;
-    text-align: left;
-    font: normal normal normal 14px/19px Open Sans;
-    letter-spacing: 5.6px;
-    color: #212121;
-    opacity: 1;
-    position: absolute;
-}
-
-.search-icon{
-    top: 69px;
-    left: 1502px;
-    width: 16px;
-    height: 16px;
-    color: #9E9E9E;
-    position: absolute;
-}
+} */
 
 .page-header{
-    position: absolute;
-   }
+    width: 1920px;
+    height: 700px;
+    margin: auto;
+    background-image: url("images/Tourism.png");
+}
    
-.header-title{      
-    padding-top: 44px;
-    padding-left: 400px;
-    width: 155px;
-    height: 60px;
-    text-align: left;
+.header-title::after{   
+    content: "Tourism";
+    margin-top: 44px;
+    margin-left: 460px;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    float: center;
     font: normal normal normal 45px/60px Julius Sans One;
     letter-spacing: 0px;
     color: #212121;
-    opacity: 1;
-    position: absolute;
-   }
-
-#circle{
-    top: 45px;
-    left: 452px;
-    width: 64px;
-    height: 64px;
-    background: #FFF700;
-    opacity: 1;
     border-radius: 100%;
+    transform: translateX(-50%);
+    background-color: #FFF700;
     position: absolute;
 }
 
+.luxury{
+    padding-top: 130px;
+    margin-left: 400px;
+    width: 448px;
+    height: auto;
+    justify-content: space-between;
+}
 .luxury-tag{
-    top: 150px;
-    left: 400px;
-    width: 360px;
-    height: 125px;
-    text-align: left;
     font: normal normal normal 94px/125px Julius Sans One;
     letter-spacing: 5.26px;
     color: #212121;
-    opacity: 1;
-    position: absolute;
+
 }
 
 .luxury-details{
-    top: 384px;
-    left: 400px;
+    margin-top: -60px;
     width: 448px;
-    height: 53px;
-    text-align: left;
     font: normal normal normal 18px/27px Karma;
     letter-spacing: 0px;
     color: #9E9E9E;
-    opacity: 1;
-    border: none;
-    position: absolute;
 }
 
 .luxury-button{
-    top: 501px;
-    left: 400px;
+    margin-top: 20px;
     width: 170px;
     height: 56px;
-    background: #212121 0% 0% no-repeat padding-box;
-    opacity: 1;
-    position: absolute;
+    background: #212121;
     font: normal normal normal 14px/19px Open Sans;
     letter-spacing: 1.68px;
     color: #FFFFFF;
 }
 
-.road-background{
-    padding-top: 0px;
-    padding-left: 0px;
-    width: 1920px;
-    height: 700px;
-    opacity: 1;
-}
-
-.trees-background{
-    /* padding-top: 200px; */
-    padding-left: 0px;
-    width: 1920px;
-    height: 700px;
-    opacity: 1;
-}
-.cameraman-image{
-    position: absolute;
-    width: 384px;
-    height: 565px;
-    opacity: 1;
-}
-
-.about-background{
-    background-color: #FFFFFF;
-    opacity: 1;
-    top: 923px;
-    left: 400px;
-    width: 1120px;
-    height: 427px;
-    position: absolute;
-}
 
 .about{
-    top: 43px;
-    left: 688px;
-    width: 117px;
-    height: 43px;
-    text-align: left;
+    background-image: url("images/Mask\ Group\ 111.png");
+    width: 1920px;
+    height: 700px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    
+}
+
+
+.about-background{
+    width: 736px;
+    height: 427px;
+    margin-top: 223px;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    background-color: #FFFFFF;
+  
+}
+.cameraman-image{
+    margin-top: 223px;
+    width: 384px;
+    height: 565px;
+}
+
+.about-tag{
     font: normal normal normal 32px/43px Julius Sans One;
     letter-spacing: 3.84px;
     color: #212121;
-    opacity: 1;
-    position: absolute;
+    
 }
 
 .about-paragraph{
-    top: 155px;
-    left: 480px;
     width: 544px;
     height: 107px;
-    text-align: center;
     font: normal normal normal 18px/27px Karma;
     letter-spacing: 0px;
     color: #9E9E9E;
-    opacity: 1;
-    position: absolute;
 }
 
 .read-more-button{
-    top: 318px;
-    left: 706px;
+
     width: 109px;
     height: 29px;
-    text-align: center;
     font: normal normal normal 14px/19px Open Sans;
     letter-spacing: 1.68px;
     color: #212121;
-    opacity: 1;
     display: inline-block;
-    position: absolute;
     background-color: white;
     border-left: none;
     border-top: none;
@@ -208,155 +166,91 @@ li{
 
 }
 
-#pointer-circle{
-    top: 1525px;
-    left: 448px;
+.middle-features{
+    margin-left: 400px;
+    margin-top: 770px;
+    width: 1120px;
+    height: 400px;
+    display: flex;
+
+    text-align: center;
+    justify-content: space-between;
+
+}
+.pointer{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+
+}
+.pointer-circle{
+    /* top: 1525px;
+    left: 448px; */
+    margin: auto;
     width: 160px;
     height: 160px;
     border-radius: 100%;
-    background: #FBFBFB 0% 0% no-repeat padding-box;
-    opacity: 1;
-    position: absolute;
+    background: #FBFBFB;
+    position: relative;
 }
 .pointer-icon{
-    top: 1581px;
-    left: 510px;
+    margin-left: 110px;
+    transform: translateY(150%);
     width: 36px;
     height: 48px;
-    opacity: 1;
+    display: flex;
     position: absolute;
 }
 .pointer-tag{
-    top: 1680px;
-    left: 469px;
+    margin-left: 70px;
     width: 108px;
     height: 31px;
-    text-align: left;
     font: normal normal normal 23px/31px Julius Sans One;
     letter-spacing: 2.76px;
     color: #212121;
-    opacity: 1;
-    position: absolute;
+    position: relative;
 }
 .pointer-description{
-    top: 1774px;
-    left: 400px;
+    /* top: 1774px;
+    left: 400px; */
     width: 256px;
     height: 71px;
     text-align: center;
     font: normal normal normal 16px/24px Karma;
     letter-spacing: 0px;
     color: #9E9E9E;
-    opacity: 1;
-    position: absolute;
+    position: relative;
 }
 
-#plane-circle{
-    top: 1685px;
-    left: 880px;
-    width: 160px;
-    height: 160px;
-    border-radius: 100%;
-    background: #FBFBFB 0% 0% no-repeat padding-box;
-    opacity: 1;
-    position: absolute;
-}
 .plane-icon{
-    top: 1741px;
-    left: 936px;
-    width: 48px;
+    margin-left: 110px;
+    margin-top: 280px;
+    width: 36px;
     height: 48px;
-    opacity: 1;
-    position: absolute;
-}
-.plane-tag{
-    top: 1480px;
-    left: 918px;
-    width: 79px;
-    height: 31px;
-    text-align: left;
-    font: normal normal normal 23px/31px Julius Sans One;
-    letter-spacing: 2.76px;
-    color: #212121;
-    opacity: 1;
-    position: absolute;
-}
-.plane-description{
-    top: 1574px;
-    left: 832px;
-    width: 256px;
-    height: 71px;
-    text-align: center;
-    font: normal normal normal 16px/24px Karma;
-    letter-spacing: 0px;
-    color: #9E9E9E;
-    opacity: 1;
-    position: absolute;
-}
-
-#map-circle{
-    top: 1525px;
-    left: 1312px;
-    width: 160px;
-    height: 160px;
-    border-radius: 100%;
-    background: #FBFBFB 0% 0% no-repeat padding-box;
-    opacity: 1;
-    position: absolute;
-}
-.map-icon{
-    top: 1581px;
-    left: 1368px;
-    width: 48px;
-    height: 48px;
-    opacity: 1;
-    position: absolute;
-}
-.map-tag{
-    top: 1680px;
-    left: 1364px;
-    width: 54px;
-    height: 31px;
-    text-align: left;
-    font: normal normal normal 23px/31px Julius Sans One;
-    letter-spacing: 2.76px;
-    color: #212121;
-    opacity: 1;
-    position: absolute;
-}
-.map-description{
-    top: 1774px;
-    left: 1264px;
-    width: 256px;
-    height: 71px;
-    text-align: center;
-    font: normal normal normal 16px/24px Karma;
-    letter-spacing: 0px;
-    color: #9E9E9E;
-    opacity: 1;
     position: absolute;
 }
 
 .locations-flex{
     display: flex;
     flex-flow: row;
-    top: 1975px;
-    position: absolute;
+    margin-top: 50px;
+}
+
+.locations{
+    width: 1500px;
+    margin: auto;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
 }
 
 .ras-alkhaimah{
-    top: 2518px;
-    left: 400px;
-    width: 256px;
-    height: 107px;
     text-align: left;
     font: normal normal normal 23px/31px Julius Sans One;
     letter-spacing: 2.76px;
     color: #212121;
-    opacity: 1; 
-    position: absolute;
 }
-.ras-description{
+.location-description{
     top: 54px;
     width: 256px;
     height: 47px;
@@ -380,24 +274,10 @@ li{
 }
 
 .dubai{
-    top: 2518px;
-    left: 832px;
-    width: 256px;
-    height: 47px;
     text-align: center;
     font: normal normal normal 23px/31px Julius Sans One;
     letter-spacing: 2.76px;
     color: #212121;
-    opacity: 1; 
-    position: absolute;
-}
-.dubai-description{
-    top: 54px;
-    width: 256px;
-    height: 47px;
-    font: normal normal normal 16px/24px Karma;
-    letter-spacing: 0px;
-    color: #9E9E9E;
 }
 
 .abu-dhabi{
@@ -409,16 +289,6 @@ li{
     font: normal normal normal 23px/31px Julius Sans One;
     letter-spacing: 2.76px;
     color: #212121;
-    opacity: 1;
-    position: absolute; 
-}
-.abu-dhabi-description{
-    top: 54px;
-    width: 256px;
-    height: 47px;
-    font: normal normal normal 16px/24px Karma;
-    letter-spacing: 0px;
-    color: #9E9E9E;
 }
 
 .hotels{
@@ -428,6 +298,7 @@ li{
     height: 905px;
     display: flex;
     flex-flow: row;
+    justify-content: center;
     background: #FBFBFB 0% 0% no-repeat padding-box;
     background-color: #FBFBFB;
     opacity: 1;
@@ -437,19 +308,16 @@ li{
 .hotels-tag{
     top: 73px;
     left: 888px;
-    width: 130px;
-    height: 43px;
-    text-align: left;
+    text-align: center;
     font: normal normal normal 32px/43px Julius Sans One;
     letter-spacing: 3.84px;
     color: #212121;
-    opacity: 1;
     position: absolute;
 }
 
 .hotel-card{
     top: 195px;
-    left: 400px;
+    left: 80px;
     margin-right: 32px;
     width: 352px;
     height: 536px;
@@ -483,7 +351,7 @@ li{
     margin-left: 40px;
     width: 84px;
     height: 1px;
-    background: #E0E0E0 0% 0% no-repeat padding-box;
+    background: #E0E0E0;
     opacity: 0.5;
     position: absolute;
 }
@@ -492,7 +360,7 @@ li{
     margin-left: 220px;
     width: 84px;
     height: 1px;
-    background: #E0E0E0 0% 0% no-repeat padding-box;
+    background: #E0E0E0;
     opacity: 0.5;
     position: absolute;
 
@@ -518,22 +386,18 @@ li{
     width: 169px;
     height: 56px;
     border: 1px solid #212121;
-    opacity: 1;
 }
 
 .arrows{
     display: flex;
     flex-flow: row;
-    top: 800px;
-    left: 900px;
+    justify-content: space-between;
+    margin-top: 800px;
+    right: 570px;
     width: 124px;
     height: 14px;
-    background: #FBFBFB 0% 0% no-repeat padding-box;
-    opacity: 1;
-    position: absolute;
-}
-.left-arrow{
-    padding-right: 100px;
+    background: #FBFBFB;
+    position: relative;
 }
 
 .page-footer{
