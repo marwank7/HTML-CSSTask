@@ -15,8 +15,6 @@
 
 ul{
     list-style-type: none;
-    /* overflow: hidden; */
-    
 }
   
 .header-info{
@@ -24,7 +22,6 @@ ul{
     margin-right: 400px;
     float: right;
     display: flex;
-    /* flex-flow: row; */
     width: 306px;
     height: 19px;
     flex-flow: row;
@@ -33,20 +30,6 @@ ul{
     color: #212121;
     justify-content: space-between;
 }
-
-
-/* .features{
-    top: 68px;
-    left: 1214px;
-    width: 96px;
-    height: 19px;
-    text-align: left;
-    font: normal normal normal 14px/19px Open Sans;
-    letter-spacing: 5.6px;
-    color: #212121;
-    opacity: 1;
-    position: absolute;
-} */
 
 .page-header{
     width: 1920px;
@@ -84,7 +67,6 @@ ul{
     font: normal normal normal 94px/125px Julius Sans One;
     letter-spacing: 5.26px;
     color: #212121;
-
 }
 
 .luxury-details{
@@ -115,7 +97,6 @@ ul{
     flex-direction: row;
     justify-content: center;
     position: absolute;
-    
 }
 
 
@@ -138,8 +119,7 @@ ul{
 .about-tag{
     font: normal normal normal 32px/43px Julius Sans One;
     letter-spacing: 3.84px;
-    color: #212121;
-    
+    color: #212121; 
 }
 
 .about-paragraph{
@@ -151,7 +131,6 @@ ul{
 }
 
 .read-more-button{
-
     width: 109px;
     height: 29px;
     font: normal normal normal 14px/19px Open Sans;
@@ -163,7 +142,6 @@ ul{
     border-top: none;
     border-right: none;
     border-bottom-color: black;
-
 }
 
 .middle-features{
@@ -172,20 +150,15 @@ ul{
     width: 1120px;
     height: 400px;
     display: flex;
-
     text-align: center;
     justify-content: space-between;
-
 }
 .pointer{
     display: flex;
     flex-flow: column;
     justify-content: space-between;
-
 }
 .pointer-circle{
-    /* top: 1525px;
-    left: 448px; */
     margin: auto;
     width: 160px;
     height: 160px;
@@ -211,8 +184,6 @@ ul{
     position: relative;
 }
 .pointer-description{
-    /* top: 1774px;
-    left: 400px; */
     width: 256px;
     height: 71px;
     text-align: center;
@@ -258,7 +229,6 @@ ul{
     font: normal normal normal 16px/24px Karma;
     letter-spacing: 0px;
     color: #9E9E9E;
-
 }
 .view-button{
     top: 125px;
@@ -307,7 +277,6 @@ ul{
     font: normal normal normal 32px/43px Julius Sans One;
     letter-spacing: 3.84px;
     color: #212121;
- 
 }
 .hotel-cards{
     left: 80px;
@@ -364,7 +333,6 @@ ul{
     background: #E0E0E0;
     opacity: 0.5;
     position: absolute;
-
 }
 .hotel-price{
     left: 156px;
@@ -425,8 +393,7 @@ ul{
     text-align: left;
     font: normal normal normal 14px/19px Open Sans;
     letter-spacing: 5.6px;
-    color: #212121;
-    
+    color: #212121; 
 }
 .middle-footer{
     margin-left: 110px;
@@ -440,7 +407,6 @@ ul{
     font: normal normal normal 32px/43px Julius Sans One;
     letter-spacing: 0px;
     color: #9E9E9E;
-
 }
 .copy-rights{
     margin-top: 40px;
