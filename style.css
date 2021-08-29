@@ -1,37 +1,40 @@
-@font-face{
+@font-face {
     font-family: 'Julius Sans One';
     src: url('fonts/JuliusSansOne-Regular.ttf');
 }
 
-@font-face{
+@font-face {
     font-family: 'Karma';
     src: url('fonts/Karma-Regular.ttf');
 }
 
-@font-face{
+@font-face {
     font-family: 'Unthrift Second Personal';
     src: url('fonts/UnthriftSecPersonal.ttf');
 }
 
-ul{
+ul {
     list-style-type: none;
 }
-*{
+
+* {
     box-sizing: border-box;
 }
-.page-header{
+
+.page-header {
     width: 1920px;
     height: 700px;
     padding: 0 400px;
     background-image: url("images/Tourism.png");
 }
-.header-nav-bar{
+
+.header-nav-bar {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.header-title{
+.header-title {
     font: normal normal normal 45px/60px Julius Sans One;
     letter-spacing: 0px;
     color: #212121;
@@ -39,7 +42,8 @@ ul{
     justify-content: center;
     z-index: 1;
 }
-.header-title::after{
+
+.header-title::after {
     content: " ";
     width: 64px;
     height: 64px;
@@ -48,34 +52,38 @@ ul{
     position: absolute;
     z-index: -1;
 }
-.nav-list{
+
+.nav-list {
     display: flex;
     flex-flow: row;
     justify-content: space-between;
     width: 306px;
 }
-.header-info{
+
+.header-info {
     font: normal normal normal 14px/0px Open Sans;
     letter-spacing: 5px;
     color: #212121;
 }
-.header-info > img{
+
+.header-info > img {
     width: 16px;
     height: 28px;
 }
 
-.luxury{
+.luxury {
     width: 448px;
     height: auto;
     justify-content: space-between;
 }
-.luxury-tag{
+
+.luxury-tag {
     font: normal normal normal 94px/125px Julius Sans One;
     letter-spacing: 5.26px;
     color: #212121;
 }
 
-.luxury-details{
+.luxury-details {
     margin-top: -60px;
     width: 448px;
     font: normal normal normal 18px/27px Karma;
@@ -83,7 +91,7 @@ ul{
     color: #9E9E9E;
 }
 
-.luxury-button{
+.luxury-button {
     margin-top: 20px;
     width: 170px;
     height: 56px;
@@ -93,8 +101,7 @@ ul{
     color: #FFFFFF;
 }
 
-
-.about{
+.about {
     background-image: url("images/Mask\ Group\ 111.png");
     width: 1920px;
     height: 700px;
@@ -105,8 +112,7 @@ ul{
     position: absolute;
 }
 
-
-.about-background{
+.about-background {
     width: 736px;
     height: 427px;
     margin-top: 223px;
@@ -114,21 +120,21 @@ ul{
     text-align: center;
     justify-content: space-around;
     background-color: #FFFFFF;
-  
 }
-.cameraman-image{
+
+.cameraman-image {
     margin-top: 223px;
     width: 384px;
     height: 565px;
 }
 
-.about-tag{
+.about-tag {
     font: normal normal normal 32px/43px Julius Sans One;
     letter-spacing: 3.84px;
     color: #212121; 
 }
 
-.about-paragraph{
+.about-paragraph {
     width: 544px;
     height: 107px;
     font: normal normal normal 18px/27px Karma;
@@ -136,7 +142,7 @@ ul{
     color: #9E9E9E;
 }
 
-.read-more-button{
+.read-more-button {
     width: 109px;
     height: 29px;
     font: normal normal normal 14px/19px Open Sans;
@@ -150,7 +156,7 @@ ul{
     border-bottom-color: black;
 }
 
-.middle-features{
+.middle-features {
     margin-left: 400px;
     margin-top: 770px;
     width: 1120px;
@@ -159,12 +165,14 @@ ul{
     text-align: center;
     justify-content: space-between;
 }
-.pointer{
+
+.pointer {
     display: flex;
     flex-flow: column;
     justify-content: space-between;
 }
-.pointer-circle{
+
+.pointer-circle {
     margin: auto;
     width: 160px;
     height: 160px;
@@ -172,7 +180,8 @@ ul{
     background: #FBFBFB;
     position: relative;
 }
-.pointer-icon{
+
+.pointer-icon {
     margin-left: 110px;
     transform: translateY(150%);
     width: 36px;
@@ -180,7 +189,8 @@ ul{
     display: flex;
     position: absolute;
 }
-.pointer-tag{
+
+.pointer-tag {
     margin-left: 70px;
     width: 108px;
     height: 31px;
@@ -189,7 +199,8 @@ ul{
     color: #212121;
     position: relative;
 }
-.pointer-description{
+
+.pointer-description {
     width: 256px;
     height: 71px;
     text-align: center;
@@ -199,7 +210,7 @@ ul{
     position: relative;
 }
 
-.plane-icon{
+.plane-icon {
     margin-left: 110px;
     margin-top: 280px;
     width: 36px;
@@ -207,13 +218,13 @@ ul{
     position: absolute;
 }
 
-.locations-flex{
+.locations-flex {
     display: flex;
     flex-flow: row;
     margin-top: 50px;
 }
 
-.locations{
+.locations {
     height: 300px;
     width: 1500px;
     margin: auto;
@@ -222,13 +233,14 @@ ul{
     justify-content: space-evenly;
 }
 
-.ras-alkhaimah{
+.ras-alkhaimah {
     text-align: left;
     font: normal normal normal 23px/31px Julius Sans One;
     letter-spacing: 2.76px;
     color: #212121;
 }
-.location-description{
+
+.location-description {
     top: 54px;
     width: 256px;
     height: 47px;
@@ -236,7 +248,8 @@ ul{
     letter-spacing: 0px;
     color: #9E9E9E;
 }
-.view-button{
+
+.view-button {
     top: 125px;
     width: 54px;
     height: 29px;
@@ -250,14 +263,14 @@ ul{
     border-bottom-color: black;
 }
 
-.dubai{
+.dubai {
     text-align: center;
     font: normal normal normal 23px/31px Julius Sans One;
     letter-spacing: 2.76px;
     color: #212121;
 }
 
-.abu-dhabi{
+.abu-dhabi {
     top: 2518px;
     left: 1264px;
     width: 256px;
@@ -268,7 +281,7 @@ ul{
     color: #212121;
 }
 
-.hotels{
+.hotels {
     width: 1920px;
     height: 850px;
     display: flex;
@@ -279,13 +292,14 @@ ul{
     position: relative;
 }
 
-.hotels-tag{
+.hotels-tag {
     text-align: center;
     font: normal normal normal 32px/43px Julius Sans One;
     letter-spacing: 3.84px;
     color: #212121;
 }
-.hotel-cards{
+
+.hotel-cards {
     display: flex;
     flex-flow: row;
     justify-content: space-between;
@@ -293,7 +307,7 @@ ul{
     position: relative;
 }
 
-.hotel-card{
+.hotel-card {
     width: 352px;
     height: 536px;
     text-align: center;
@@ -301,7 +315,8 @@ ul{
     background: #FFFFFF;
     position: relative;
 }
-.hotel-name{
+
+.hotel-name {
     left: 80px;
     width: 200px;
     height: 31px;
@@ -311,7 +326,8 @@ ul{
     color: #212121;
     position: relative;
 }
-.hotel-description{
+
+.hotel-description {
     left: 48px;
     width: 256px;
     height: 71px;
@@ -321,7 +337,8 @@ ul{
     color: #9E9E9E;
     position: relative;
 }
-.left-line{
+
+.left-line {
     margin-top: 22px;
     margin-left: 40px;
     width: 84px;
@@ -330,7 +347,8 @@ ul{
     opacity: 0.5;
     position: absolute;
 }
-.right-line{
+
+.right-line {
     margin-top: 22px;
     margin-left: 220px;
     width: 84px;
@@ -339,7 +357,8 @@ ul{
     opacity: 0.5;
     position: absolute;
 }
-.hotel-price{
+
+.hotel-price {
     left: 156px;
     width: 47px;
     height: 32px;
@@ -350,8 +369,7 @@ ul{
     position: relative;
 }
 
-
-.book-button{
+.book-button {
     background: transparent;
     text-align: center;
     font: normal normal normal 14px/19px Open Sans;
@@ -362,7 +380,7 @@ ul{
     border: 1px solid #212121;
 }
 
-.arrows{
+.arrows {
     display: flex;
     flex-flow: row;
     justify-content: center;
@@ -371,17 +389,18 @@ ul{
     padding: 0 500px;
 }
 
-.page-footer{
+.page-footer {
     width: 1920px;
     padding: 26px 400px;
 }
-.nav-bar{
+
+.nav-bar {
     display: flex;
     flex-flow: row;
     justify-content: space-between;
 }
 
-.nav-content{
+.nav-content {
     width: 286px;
     height: 19px;
     font: normal normal normal 14px/19px Open Sans;
@@ -391,19 +410,22 @@ ul{
     flex-flow: row;
     justify-content: space-between;
 }
-.middle-footer{
+
+.middle-footer {
     display: flex;
     flex-flow: column;
     justify-content: center;
 }
-.tourism-tag{
+
+.tourism-tag {
     height: 0px;
     text-align: center;
     font: normal normal normal 32px/0px Julius Sans One;
     letter-spacing: 0px;
     color: #9E9E9E;
 }
-.copy-rights{
+
+.copy-rights {
     width: 200px;
     height: 0px;
     text-align: center;
@@ -411,12 +433,14 @@ ul{
     letter-spacing: 0px;
     color: #9E9E9E;
 }
-.media-icons{
+
+.media-icons {
     width: 63px;
     height: 20px;
     display: flex;
     flex-flow: row;
 }
-#twitter{
+
+#twitter {
     padding-right: 20px;
 }
