@@ -16,49 +16,55 @@
 ul{
     list-style-type: none;
 }
-  
-.header-info{
-    margin-top: 50px;
-    margin-right: 400px;
-    float: right;
-    display: flex;
-    width: 306px;
-    height: 19px;
-    flex-flow: row;
-    font: normal normal normal 14px/19px Open Sans;
-    letter-spacing: 5.6px;
-    color: #212121;
-    justify-content: space-between;
+*{
+    box-sizing: border-box;
 }
-
 .page-header{
     width: 1920px;
     height: 700px;
-    margin: auto;
+    padding: 0 400px;
     background-image: url("images/Tourism.png");
 }
-   
-.header-title::after{   
-    content: "Tourism";
-    margin-top: 44px;
-    margin-left: 460px;
-    width: 64px;
-    height: 64px;
+.header-nav-bar{
     display: flex;
-    justify-content: center;
-    float: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header-title{
     font: normal normal normal 45px/60px Julius Sans One;
     letter-spacing: 0px;
     color: #212121;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+.header-title::after{
+    content: " ";
+    width: 64px;
+    height: 64px;
     border-radius: 100%;
-    transform: translateX(-50%);
     background-color: #FFF700;
     position: absolute;
+    z-index: -1;
+}
+.nav-list{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    width: 306px;
+}
+.header-info{
+    font: normal normal normal 14px/0px Open Sans;
+    letter-spacing: 5px;
+    color: #212121;
+}
+.header-info > img{
+    width: 16px;
+    height: 28px;
 }
 
 .luxury{
-    padding-top: 130px;
-    margin-left: 400px;
     width: 448px;
     height: auto;
     justify-content: space-between;
@@ -267,8 +273,9 @@ ul{
     height: 850px;
     display: flex;
     flex-flow: column;
-    justify-content: center;
+    justify-content: space-around;
     background-color: #FBFBFB;
+    padding: 0 416px;
     position: relative;
 }
 
@@ -279,16 +286,14 @@ ul{
     color: #212121;
 }
 .hotel-cards{
-    left: 80px;
     display: flex;
     flex-flow: row;
-    justify-content: center;
+    justify-content: space-between;
     background-color: #FBFBFB;
     position: relative;
 }
 
 .hotel-card{
-    margin-right: 32px;
     width: 352px;
     height: 536px;
     text-align: center;
@@ -360,66 +365,53 @@ ul{
 .arrows{
     display: flex;
     flex-flow: row;
-    justify-content: space-between;
-    margin-top: 600px;
-    right: 650px;
-    width: 124px;
+    justify-content: center;
     height: 14px;
     background: #FBFBFB;
-    position: relative;
+    padding: 0 500px;
 }
 
 .page-footer{
-    margin-left: 400px;
-    width: 1111px;
-    height: 68px;
-    display: flex;
-    flex-flow: row;
+    width: 1920px;
+    padding: 26px 400px;
 }
 .nav-bar{
-    padding-top: 26px;
-    width: 286px;
-    height: 19px;
     display: flex;
     flex-flow: row;
-    justify-content: right;
+    justify-content: space-between;
 }
+
 .nav-content{
-    top: 0px;
-    left: 111px;
-    padding-right: 50px;
-    width: 100px;
+    width: 286px;
     height: 19px;
-    text-align: left;
     font: normal normal normal 14px/19px Open Sans;
-    letter-spacing: 5.6px;
+    letter-spacing: 5px;
     color: #212121; 
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
 }
 .middle-footer{
-    margin-left: 110px;
     display: flex;
     flex-flow: column;
     justify-content: center;
 }
 .tourism-tag{
-    margin-bottom: -40px;
+    height: 0px;
     text-align: center;
-    font: normal normal normal 32px/43px Julius Sans One;
+    font: normal normal normal 32px/0px Julius Sans One;
     letter-spacing: 0px;
     color: #9E9E9E;
 }
 .copy-rights{
-    margin-top: 40px;
     width: 200px;
+    height: 0px;
     text-align: center;
-    font: normal normal normal 11px/15px Open Sans;
+    font: normal normal normal 11px/0px Open Sans;
     letter-spacing: 0px;
     color: #9E9E9E;
 }
-
 .media-icons{
-    top: 10px;
-    margin-left: 400px;
     width: 63px;
     height: 20px;
     display: flex;
