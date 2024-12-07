@@ -1,371 +1,255 @@
-@font-face{
+@font-face {
     font-family: 'Julius Sans One';
     src: url('fonts/JuliusSansOne-Regular.ttf');
 }
 
-@font-face{
+@font-face {
     font-family: 'Karma';
     src: url('fonts/Karma-Regular.ttf');
 }
 
-@font-face{
+@font-face {
     font-family: 'Unthrift Second Personal';
     src: url('fonts/UnthriftSecPersonal.ttf');
 }
 
-ul{
+ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    
-}
-  
-li{
-    float: right;
-   
 }
 
-
-.features{
-    top: 68px;
-    left: 1214px;
-    width: 96px;
-    height: 19px;
-    text-align: left;
-    font: normal normal normal 14px/19px Open Sans;
-    letter-spacing: 5.6px;
-    color: #212121;
-    opacity: 1;
-    position: absolute;
+* {
+    box-sizing: border-box;
 }
 
-.contacts{
-    top: 68px;
-    left: 1358px;
-    width: 96px;
-    height: 19px;
-    text-align: left;
-    font: normal normal normal 14px/19px Open Sans;
-    letter-spacing: 5.6px;
-    color: #212121;
-    opacity: 1;
-    position: absolute;
+.page-header {
+    width: 1920px;
+    height: 700px;
+    padding: 0 400px;
+    background-image: url("images/Tourism.png");
 }
 
-.search-icon{
-    top: 69px;
-    left: 1502px;
-    width: 16px;
-    height: 16px;
-    color: #9E9E9E;
-    position: absolute;
+.header-nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-.page-header{
-    position: absolute;
-   }
-   
-.header-title{      
-    padding-top: 44px;
-    padding-left: 400px;
-    width: 155px;
-    height: 60px;
-    text-align: left;
+.header-title {
     font: normal normal normal 45px/60px Julius Sans One;
     letter-spacing: 0px;
     color: #212121;
-    opacity: 1;
-    position: absolute;
-   }
-
-#circle{
-    top: 45px;
-    left: 452px;
-    width: 64px;
-    height: 64px;
-    background: #FFF700;
-    opacity: 1;
-    border-radius: 100%;
-    position: absolute;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
 }
 
-.luxury-tag{
-    top: 150px;
-    left: 400px;
-    width: 360px;
-    height: 125px;
-    text-align: left;
+.header-title::after {
+    content: " ";
+    width: 64px;
+    height: 64px;
+    border-radius: 100%;
+    background-color: #FFF700;
+    position: absolute;
+    z-index: -1;
+}
+
+.nav-list {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    width: 306px;
+}
+
+.header-info {
+    font: normal normal normal 14px/0px Open Sans;
+    letter-spacing: 5px;
+    color: #212121;
+}
+
+.header-info > img {
+    width: 16px;
+    height: 28px;
+}
+
+.luxury {
+    width: 448px;
+    height: auto;
+    justify-content: space-between;
+}
+
+.luxury-tag {
     font: normal normal normal 94px/125px Julius Sans One;
     letter-spacing: 5.26px;
     color: #212121;
-    opacity: 1;
-    position: absolute;
 }
 
-.luxury-details{
-    top: 384px;
-    left: 400px;
+.luxury-details {
+    margin-top: -60px;
     width: 448px;
-    height: 53px;
-    text-align: left;
     font: normal normal normal 18px/27px Karma;
     letter-spacing: 0px;
     color: #9E9E9E;
-    opacity: 1;
-    border: none;
-    position: absolute;
 }
 
-.luxury-button{
-    top: 501px;
-    left: 400px;
+.luxury-button {
+    margin-top: 20px;
     width: 170px;
     height: 56px;
-    background: #212121 0% 0% no-repeat padding-box;
-    opacity: 1;
-    position: absolute;
+    background: #212121;
     font: normal normal normal 14px/19px Open Sans;
     letter-spacing: 1.68px;
     color: #FFFFFF;
 }
 
-.road-background{
-    padding-top: 0px;
-    padding-left: 0px;
+.about {
+    background-image: url("images/Mask\ Group\ 111.png");
     width: 1920px;
     height: 700px;
-    opacity: 1;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
 }
 
-.trees-background{
-    /* padding-top: 200px; */
-    padding-left: 0px;
-    width: 1920px;
-    height: 700px;
-    opacity: 1;
+.about-background {
+    width: 736px;
+    height: 427px;
+    margin-top: 223px;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    background-color: #FFFFFF;
 }
-.cameraman-image{
-    position: absolute;
+
+.cameraman-image {
+    margin-top: 223px;
     width: 384px;
     height: 565px;
-    opacity: 1;
 }
 
-.about-background{
-    background-color: #FFFFFF;
-    opacity: 1;
-    top: 923px;
-    left: 400px;
-    width: 1120px;
-    height: 427px;
-    position: absolute;
-}
-
-.about{
-    top: 43px;
-    left: 688px;
-    width: 117px;
-    height: 43px;
-    text-align: left;
+.about-tag {
     font: normal normal normal 32px/43px Julius Sans One;
     letter-spacing: 3.84px;
-    color: #212121;
-    opacity: 1;
-    position: absolute;
+    color: #212121; 
 }
 
-.about-paragraph{
-    top: 155px;
-    left: 480px;
+.about-paragraph {
     width: 544px;
     height: 107px;
-    text-align: center;
     font: normal normal normal 18px/27px Karma;
     letter-spacing: 0px;
     color: #9E9E9E;
-    opacity: 1;
-    position: absolute;
 }
 
-.read-more-button{
-    top: 318px;
-    left: 706px;
+.read-more-button {
     width: 109px;
     height: 29px;
-    text-align: center;
     font: normal normal normal 14px/19px Open Sans;
     letter-spacing: 1.68px;
     color: #212121;
-    opacity: 1;
     display: inline-block;
-    position: absolute;
     background-color: white;
     border-left: none;
     border-top: none;
     border-right: none;
     border-bottom-color: black;
-
 }
 
-#pointer-circle{
-    top: 1525px;
-    left: 448px;
+.middle-features {
+    margin-left: 400px;
+    margin-top: 770px;
+    width: 1120px;
+    height: 400px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.pointer {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.pointer-circle {
+    margin: auto;
     width: 160px;
     height: 160px;
     border-radius: 100%;
-    background: #FBFBFB 0% 0% no-repeat padding-box;
-    opacity: 1;
-    position: absolute;
+    background: #FBFBFB;
+    position: relative;
 }
-.pointer-icon{
-    top: 1581px;
-    left: 510px;
+
+.pointer-icon {
+    margin-left: 110px;
+    transform: translateY(150%);
     width: 36px;
     height: 48px;
-    opacity: 1;
+    display: flex;
     position: absolute;
 }
-.pointer-tag{
-    top: 1680px;
-    left: 469px;
+
+.pointer-tag {
+    margin-left: 70px;
     width: 108px;
     height: 31px;
-    text-align: left;
     font: normal normal normal 23px/31px Julius Sans One;
     letter-spacing: 2.76px;
     color: #212121;
-    opacity: 1;
-    position: absolute;
+    position: relative;
 }
-.pointer-description{
-    top: 1774px;
-    left: 400px;
+
+.pointer-description {
     width: 256px;
     height: 71px;
     text-align: center;
     font: normal normal normal 16px/24px Karma;
     letter-spacing: 0px;
     color: #9E9E9E;
-    opacity: 1;
-    position: absolute;
+    position: relative;
 }
 
-#plane-circle{
-    top: 1685px;
-    left: 880px;
-    width: 160px;
-    height: 160px;
-    border-radius: 100%;
-    background: #FBFBFB 0% 0% no-repeat padding-box;
-    opacity: 1;
-    position: absolute;
-}
-.plane-icon{
-    top: 1741px;
-    left: 936px;
-    width: 48px;
+.plane-icon {
+    margin-left: 110px;
+    margin-top: 280px;
+    width: 36px;
     height: 48px;
-    opacity: 1;
-    position: absolute;
-}
-.plane-tag{
-    top: 1480px;
-    left: 918px;
-    width: 79px;
-    height: 31px;
-    text-align: left;
-    font: normal normal normal 23px/31px Julius Sans One;
-    letter-spacing: 2.76px;
-    color: #212121;
-    opacity: 1;
-    position: absolute;
-}
-.plane-description{
-    top: 1574px;
-    left: 832px;
-    width: 256px;
-    height: 71px;
-    text-align: center;
-    font: normal normal normal 16px/24px Karma;
-    letter-spacing: 0px;
-    color: #9E9E9E;
-    opacity: 1;
     position: absolute;
 }
 
-#map-circle{
-    top: 1525px;
-    left: 1312px;
-    width: 160px;
-    height: 160px;
-    border-radius: 100%;
-    background: #FBFBFB 0% 0% no-repeat padding-box;
-    opacity: 1;
-    position: absolute;
-}
-.map-icon{
-    top: 1581px;
-    left: 1368px;
-    width: 48px;
-    height: 48px;
-    opacity: 1;
-    position: absolute;
-}
-.map-tag{
-    top: 1680px;
-    left: 1364px;
-    width: 54px;
-    height: 31px;
-    text-align: left;
-    font: normal normal normal 23px/31px Julius Sans One;
-    letter-spacing: 2.76px;
-    color: #212121;
-    opacity: 1;
-    position: absolute;
-}
-.map-description{
-    top: 1774px;
-    left: 1264px;
-    width: 256px;
-    height: 71px;
-    text-align: center;
-    font: normal normal normal 16px/24px Karma;
-    letter-spacing: 0px;
-    color: #9E9E9E;
-    opacity: 1;
-    position: absolute;
-}
-
-.locations-flex{
+.locations-flex {
     display: flex;
     flex-flow: row;
-    top: 1975px;
-    position: absolute;
+    margin-top: 50px;
 }
 
-.ras-alkhaimah{
-    top: 2518px;
-    left: 400px;
-    width: 256px;
-    height: 107px;
+.locations {
+    height: 300px;
+    width: 1500px;
+    margin: auto;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+}
+
+.ras-alkhaimah {
     text-align: left;
     font: normal normal normal 23px/31px Julius Sans One;
     letter-spacing: 2.76px;
     color: #212121;
-    opacity: 1; 
-    position: absolute;
 }
-.ras-description{
+
+.location-description {
     top: 54px;
     width: 256px;
     height: 47px;
     font: normal normal normal 16px/24px Karma;
     letter-spacing: 0px;
     color: #9E9E9E;
-
 }
-.view-button{
+
+.view-button {
     top: 125px;
     width: 54px;
     height: 29px;
@@ -379,28 +263,14 @@ li{
     border-bottom-color: black;
 }
 
-.dubai{
-    top: 2518px;
-    left: 832px;
-    width: 256px;
-    height: 47px;
+.dubai {
     text-align: center;
     font: normal normal normal 23px/31px Julius Sans One;
     letter-spacing: 2.76px;
     color: #212121;
-    opacity: 1; 
-    position: absolute;
-}
-.dubai-description{
-    top: 54px;
-    width: 256px;
-    height: 47px;
-    font: normal normal normal 16px/24px Karma;
-    letter-spacing: 0px;
-    color: #9E9E9E;
 }
 
-.abu-dhabi{
+.abu-dhabi {
     top: 2518px;
     left: 1264px;
     width: 256px;
@@ -409,48 +279,35 @@ li{
     font: normal normal normal 23px/31px Julius Sans One;
     letter-spacing: 2.76px;
     color: #212121;
-    opacity: 1;
-    position: absolute; 
-}
-.abu-dhabi-description{
-    top: 54px;
-    width: 256px;
-    height: 47px;
-    font: normal normal normal 16px/24px Karma;
-    letter-spacing: 0px;
-    color: #9E9E9E;
 }
 
-.hotels{
-    top: 2801px;
-    left: 0px;
+.hotels {
     width: 1920px;
-    height: 905px;
+    height: 850px;
     display: flex;
-    flex-flow: row;
-    background: #FBFBFB 0% 0% no-repeat padding-box;
+    flex-flow: column;
+    justify-content: space-around;
     background-color: #FBFBFB;
-    opacity: 1;
-    position: absolute;
+    padding: 0 416px;
+    position: relative;
 }
 
-.hotels-tag{
-    top: 73px;
-    left: 888px;
-    width: 130px;
-    height: 43px;
-    text-align: left;
+.hotels-tag {
+    text-align: center;
     font: normal normal normal 32px/43px Julius Sans One;
     letter-spacing: 3.84px;
     color: #212121;
-    opacity: 1;
-    position: absolute;
 }
 
-.hotel-card{
-    top: 195px;
-    left: 400px;
-    margin-right: 32px;
+.hotel-cards {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    background-color: #FBFBFB;
+    position: relative;
+}
+
+.hotel-card {
     width: 352px;
     height: 536px;
     text-align: center;
@@ -458,7 +315,8 @@ li{
     background: #FFFFFF;
     position: relative;
 }
-.hotel-name{
+
+.hotel-name {
     left: 80px;
     width: 200px;
     height: 31px;
@@ -468,7 +326,8 @@ li{
     color: #212121;
     position: relative;
 }
-.hotel-description{
+
+.hotel-description {
     left: 48px;
     width: 256px;
     height: 71px;
@@ -478,26 +337,28 @@ li{
     color: #9E9E9E;
     position: relative;
 }
-.left-line{
+
+.left-line {
     margin-top: 22px;
     margin-left: 40px;
     width: 84px;
     height: 1px;
-    background: #E0E0E0 0% 0% no-repeat padding-box;
+    background: #E0E0E0;
     opacity: 0.5;
     position: absolute;
 }
-.right-line{
+
+.right-line {
     margin-top: 22px;
     margin-left: 220px;
     width: 84px;
     height: 1px;
-    background: #E0E0E0 0% 0% no-repeat padding-box;
+    background: #E0E0E0;
     opacity: 0.5;
     position: absolute;
-
 }
-.hotel-price{
+
+.hotel-price {
     left: 156px;
     width: 47px;
     height: 32px;
@@ -508,8 +369,7 @@ li{
     position: relative;
 }
 
-
-.book-button{
+.book-button {
     background: transparent;
     text-align: center;
     font: normal normal normal 14px/19px Open Sans;
@@ -518,86 +378,69 @@ li{
     width: 169px;
     height: 56px;
     border: 1px solid #212121;
-    opacity: 1;
 }
 
-.arrows{
+.arrows {
     display: flex;
     flex-flow: row;
-    top: 800px;
-    left: 900px;
-    width: 124px;
+    justify-content: center;
     height: 14px;
-    background: #FBFBFB 0% 0% no-repeat padding-box;
-    opacity: 1;
-    position: absolute;
-}
-.left-arrow{
-    padding-right: 100px;
+    background: #FBFBFB;
+    padding: 0 500px;
 }
 
-.page-footer{
-    top: 3746px;
-    left: 400px;
-    width: 1111px;
-    height: 68px;
+.page-footer {
+    width: 1920px;
+    padding: 26px 400px;
+}
+
+.nav-bar {
     display: flex;
     flex-flow: row;
-    position: absolute;
+    justify-content: space-between;
 }
-.nav-bar{
-    top: 26px;
-    left: 400px;
+
+.nav-content {
     width: 286px;
     height: 19px;
+    font: normal normal normal 14px/19px Open Sans;
+    letter-spacing: 5px;
+    color: #212121; 
     display: flex;
     flex-flow: row;
-}
-.nav-content{
-    top: 0px;
-    left: 111px;
-    padding-right: 50px;
-    width: 100px;
-    height: 19px;
-    text-align: left;
-    font: normal normal normal 14px/19px Open Sans;
-    letter-spacing: 5.6px;
-    color: #212121;
-    
-}
-.tourism-tag{
-    bottom: 5px;
-    left: 505px;
-    width: 111px;
-    height: 43px;
-    text-align: left;
-    font: normal normal normal 32px/43px Julius Sans One;
-    letter-spacing: 0px;
-    color: #9E9E9E;
-    position: absolute;
-}
-.copy-rights{
-    top: 20px;
-    left: 480px;
-    width: 190px;
-    height: 15px;
-    text-align: left;
-    font: normal normal normal 11px/15px Open Sans;
-    letter-spacing: 0px;
-    color: #9E9E9E;
-    position: absolute;
+    justify-content: space-between;
 }
 
-.media-icons{
-    top: 10px;
-    left: 1060px;
-    padding-right: 10px;
+.middle-footer {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.tourism-tag {
+    height: 0px;
+    text-align: center;
+    font: normal normal normal 32px/0px Julius Sans One;
+    letter-spacing: 0px;
+    color: #9E9E9E;
+}
+
+.copy-rights {
+    width: 200px;
+    height: 0px;
+    text-align: center;
+    font: normal normal normal 11px/0px Open Sans;
+    letter-spacing: 0px;
+    color: #9E9E9E;
+}
+
+.media-icons {
     width: 63px;
     height: 20px;
     display: flex;
     flex-flow: row;
-    position: absolute;
 }
-#twitter{
+
+#twitter {
     padding-right: 20px;
 }
